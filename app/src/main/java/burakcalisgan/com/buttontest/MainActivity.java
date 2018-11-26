@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
 
+        //Deneme
         if (v.getId() == R.id.button) {
             Log.e("Button Test", "1. butona tıklandı !");
         } else if (v.getId() == R.id.button2) {
